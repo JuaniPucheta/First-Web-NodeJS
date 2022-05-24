@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= title%></title>
+    <%- include ('partials/head.html')%>
+</head>
+<body>
+    <%- include ('partials/navigation.html')%>
+
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img src="/img/yo.png" class="animate__animated animate__tada" alt="JuaniPucheta">
+            </div>
+        </header>
+    </div>
+
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-github fa-10x"></a></i>
+            </div>
+            <div class="col-sm-6">
+                <h3>Mi GitHub personal</h3>
+                <p>Este es mi GitHub personal en donde podrás encontrar proyectos míos y otros en los cuales he colaborador
+                con compañeros de la facultad en diferentes materias que hayan requerido programación</p>
+                <a href="https://github.com/JuaniPucheta?tab=repositories">¡Haz click aquí para ir a mi GitHub!</a>
+            </div>
+        </div>
+
+    </div>
+
+    <%- include ('partials/footer.html')%>
+
+</body>
+</html>
